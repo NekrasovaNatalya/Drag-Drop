@@ -27,3 +27,7 @@ function dragover(event) {
 function dragenter(event) {
     event.target.classList.add('hovered');
 }
+
+function dragleave(event) {
+    event.target.classList.remove('hovered');
+}
