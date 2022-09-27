@@ -31,3 +31,8 @@ function dragenter(event) {
 function dragleave(event) {
     event.target.classList.remove('hovered');
 }
+
+function dragdrop(event) {
+    event.target.append(item);
+    event.target.classList.remove('hovered');
+}
