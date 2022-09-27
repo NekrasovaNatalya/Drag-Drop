@@ -19,3 +19,7 @@ function dragstart(event) {
 function dragend(event) {
     event.target.classList.remove('hold','hide');
 }
+
+function dragover(event) {
+    event.preventDefault();
+}
